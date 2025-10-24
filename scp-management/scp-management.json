@@ -6,7 +6,7 @@
             "ID": "dev-env"
         },
         "Guardrails": [
-            "s3-block-public-access.json"
+            "s3-block-public-access"
         ],
         "Policy": "",
         "Comments": "Guardrails for s3 public access in the dev environment"
