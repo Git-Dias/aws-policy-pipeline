@@ -3,7 +3,7 @@
         "SID": "dev-environment-guardrails",
         "Target": {
             "Type": "OU",
-            "ID": "dev-env"
+            "ID": "dev-env:u-1r9e-x0u4p0ct"
         },
         "Guardrails": [
             "s3-block-public-access"
