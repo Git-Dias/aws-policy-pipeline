@@ -2,7 +2,7 @@
     {
         "SID": "dev-environment-guardrails",
         "Target": {
-            "Type": "Environment",
+            "Type": "OU",
             "ID": "dev-env"
         },
         "Guardrails": [
