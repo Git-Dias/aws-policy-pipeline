@@ -10,5 +10,17 @@
         ],
         "Policy": "",
         "Comments": "Guardrails for s3 public access in the dev environment"
-    }  
+    },
+    {
+        "SID": "sandbox-dev-env-guardrails",
+        "Target": {
+            "Type": "OU",
+            "ID": "sandbox-dev-env:ou-1r9e-dkrr6ugn"
+        },
+        "Guardrails": [
+            "ec2-snapshot-encryption"
+        ],
+        "Policy": "",
+        "Comments": "Guardrails ec2 snapshot in sandbox dev environment"
+    } 
 ]
