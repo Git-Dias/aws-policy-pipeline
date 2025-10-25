@@ -21,6 +21,6 @@
             "ec2-snapshot-encryption"
         ],
         "Policy": "",
-        "Comments": "Guardrails ec2 snapshot in sandbox dev environment"
+        "Comments": "Guardrails for ec2 snapshot in sandbox dev environment"
     } 
 ]
