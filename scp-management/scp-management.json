@@ -1,12 +1,13 @@
 [
     {
-        "SID": "dev-environment-guardrails",
+        "SID": "dev-env-guardrails",
         "Target": {
             "Type": "OU",
             "ID": "dev-env:ou-1r9e-x0u4p0ct"
         },
         "Guardrails": [
-            "s3-block-public-access"
+            "s3-block-public-access",
+            "ec2-snapshot-encryption"
         ],
         "Policy": "",
         "Comments": "Guardrails for s3 public access in the dev environment"
