@@ -7,7 +7,8 @@
         },
         "Guardrails": [
             "s3-block-public-access",
-            "ec2-snapshot-encryption"
+            "ec2-snapshot-encryption",
+            "rds-encryption"
         ],
         "Policy": "",
         "Comments": "Guardrails for s3 public access in the dev environment"
